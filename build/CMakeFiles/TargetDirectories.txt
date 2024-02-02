@@ -1,0 +1,3 @@
+/home/afzal-khan/study/c/cirular_buffer/build/CMakeFiles/cmaketest.dir
+/home/afzal-khan/study/c/cirular_buffer/build/CMakeFiles/edit_cache.dir
+/home/afzal-khan/study/c/cirular_buffer/build/CMakeFiles/rebuild_cache.dir
