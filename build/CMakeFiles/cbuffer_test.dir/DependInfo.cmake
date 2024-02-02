@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/afzal-khan/study/c/cirular_buffer/circularbuff.c" "CMakeFiles/cmaketest.dir/circularbuff.c.o" "gcc" "CMakeFiles/cmaketest.dir/circularbuff.c.o.d"
-  "/home/afzal-khan/study/c/cirular_buffer/main.c" "CMakeFiles/cmaketest.dir/main.c.o" "gcc" "CMakeFiles/cmaketest.dir/main.c.o.d"
+  "/home/afzal-khan/study/c/cirular_buffer/afk_c_buff.c" "CMakeFiles/cbuffer_test.dir/afk_c_buff.c.o" "gcc" "CMakeFiles/cbuffer_test.dir/afk_c_buff.c.o.d"
+  "/home/afzal-khan/study/c/cirular_buffer/c_buff_test.c" "CMakeFiles/cbuffer_test.dir/c_buff_test.c.o" "gcc" "CMakeFiles/cbuffer_test.dir/c_buff_test.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

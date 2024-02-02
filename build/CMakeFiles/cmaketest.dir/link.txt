@@ -1,1 +1,0 @@
-/usr/bin/cc -rdynamic CMakeFiles/cmaketest.dir/main.c.o CMakeFiles/cmaketest.dir/circularbuff.c.o -o cmaketest 

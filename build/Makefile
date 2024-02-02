@@ -117,65 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cmaketest
+# Target rules for targets named cbuffer_test
 
 # Build rule for target.
-cmaketest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmaketest
-.PHONY : cmaketest
+cbuffer_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cbuffer_test
+.PHONY : cbuffer_test
 
 # fast build rule for target.
-cmaketest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmaketest.dir/build.make CMakeFiles/cmaketest.dir/build
-.PHONY : cmaketest/fast
+cbuffer_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cbuffer_test.dir/build.make CMakeFiles/cbuffer_test.dir/build
+.PHONY : cbuffer_test/fast
 
-circularbuff.o: circularbuff.c.o
-.PHONY : circularbuff.o
-
-# target to build an object file
-circularbuff.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmaketest.dir/build.make CMakeFiles/cmaketest.dir/circularbuff.c.o
-.PHONY : circularbuff.c.o
-
-circularbuff.i: circularbuff.c.i
-.PHONY : circularbuff.i
-
-# target to preprocess a source file
-circularbuff.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmaketest.dir/build.make CMakeFiles/cmaketest.dir/circularbuff.c.i
-.PHONY : circularbuff.c.i
-
-circularbuff.s: circularbuff.c.s
-.PHONY : circularbuff.s
-
-# target to generate assembly for a file
-circularbuff.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmaketest.dir/build.make CMakeFiles/cmaketest.dir/circularbuff.c.s
-.PHONY : circularbuff.c.s
-
-main.o: main.c.o
-.PHONY : main.o
+afk_c_buff.o: afk_c_buff.c.o
+.PHONY : afk_c_buff.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmaketest.dir/build.make CMakeFiles/cmaketest.dir/main.c.o
-.PHONY : main.c.o
+afk_c_buff.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cbuffer_test.dir/build.make CMakeFiles/cbuffer_test.dir/afk_c_buff.c.o
+.PHONY : afk_c_buff.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+afk_c_buff.i: afk_c_buff.c.i
+.PHONY : afk_c_buff.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmaketest.dir/build.make CMakeFiles/cmaketest.dir/main.c.i
-.PHONY : main.c.i
+afk_c_buff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cbuffer_test.dir/build.make CMakeFiles/cbuffer_test.dir/afk_c_buff.c.i
+.PHONY : afk_c_buff.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+afk_c_buff.s: afk_c_buff.c.s
+.PHONY : afk_c_buff.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmaketest.dir/build.make CMakeFiles/cmaketest.dir/main.c.s
-.PHONY : main.c.s
+afk_c_buff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cbuffer_test.dir/build.make CMakeFiles/cbuffer_test.dir/afk_c_buff.c.s
+.PHONY : afk_c_buff.c.s
+
+c_buff_test.o: c_buff_test.c.o
+.PHONY : c_buff_test.o
+
+# target to build an object file
+c_buff_test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cbuffer_test.dir/build.make CMakeFiles/cbuffer_test.dir/c_buff_test.c.o
+.PHONY : c_buff_test.c.o
+
+c_buff_test.i: c_buff_test.c.i
+.PHONY : c_buff_test.i
+
+# target to preprocess a source file
+c_buff_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cbuffer_test.dir/build.make CMakeFiles/cbuffer_test.dir/c_buff_test.c.i
+.PHONY : c_buff_test.c.i
+
+c_buff_test.s: c_buff_test.c.s
+.PHONY : c_buff_test.s
+
+# target to generate assembly for a file
+c_buff_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cbuffer_test.dir/build.make CMakeFiles/cbuffer_test.dir/c_buff_test.c.s
+.PHONY : c_buff_test.c.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cmaketest"
-	@echo "... circularbuff.o"
-	@echo "... circularbuff.i"
-	@echo "... circularbuff.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... cbuffer_test"
+	@echo "... afk_c_buff.o"
+	@echo "... afk_c_buff.i"
+	@echo "... afk_c_buff.s"
+	@echo "... c_buff_test.o"
+	@echo "... c_buff_test.i"
+	@echo "... c_buff_test.s"
 .PHONY : help
 
 

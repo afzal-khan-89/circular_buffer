@@ -1,2 +1,2 @@
-# Empty dependencies file for cmaketest.
+# Empty dependencies file for cbuffer_test.
 # This may be replaced when dependencies are built.

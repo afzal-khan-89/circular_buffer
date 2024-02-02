@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "circularbuff.h"
+#include "afk_c_buff.h"
 
 uint8_t arr1[]="the quick brown fox jumps over the lazy dog" ;
 uint8_t arr2[9][25] = { "hello ","dear " ,"Bangladesh" ,"how can I help" ,"furious the monkey boy" ,"waiting for tonight" ,"lets get it don" ,"hello world" ,"i don't know" } ;
@@ -15,10 +15,9 @@ void main()
 			printf("%s", "write ok\n");
 		}
 	}
-	for(int i=0; i<200; i++)
+	for(int i=0; i<503; i++)
 	{
-	    *read_ptr == NULL ;
 		mBuffer.pop(&read_ptr, &mBuffer);
-    	read_ptr == NULL ? (printf("%s\n", "ptr null \n")) : printf("%s\n", read_ptr) ;
+    	read_ptr == NULL ? (printf("at %d : %s\n",i ,"ptr null")) : printf("at %d %s\n", i, read_ptr) ;
 	}
 }
